@@ -37,10 +37,12 @@ graph TD
 4. **Seguridad Proactiva**: Integración nativa de `helmet` para protección de cabeceras y un manejador de errores centralizado que evita fugas de información técnica (*stack traces*) en producción.
 
 ## 📦 Gestión de Entorno
+
 - **Gestor de Paquetes**: `pnpm` (Eficiencia y seguridad de dependencias).
 - **Inyección de Dependencias**: Uso de `dotenv` para configuración desacoplada del código fuente.
 
 ## 📁 Estructura de Directorios
+
 - `src/app.js`: Corazón de la configuración.
 - `src/routes/`: Definición de contratos de la API.
 - `src/controllers/`: Implementación de la lógica funcional.
