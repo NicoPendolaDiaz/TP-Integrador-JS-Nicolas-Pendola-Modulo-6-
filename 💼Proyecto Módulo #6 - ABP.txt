@@ -21,7 +21,7 @@ La implementación será  progresiva  , en tres partes  alineadas a los módulos
 
 3.- Requerimientos
 Estos son los fundamentos que deberás respetar y aplicar durante todo el desarrollo del proyecto. Funcionan como condiciones base:
-○ La aplicación deberá estar desarrollada en Node.js (v18  o  superior) utilizando el framework  Express.js.
+○ La aplicación deberá estar desarrollada en Node.js (v18  o  superior) utilizando el framework Express.js.
 ○ El proyecto debe estar estructurado en rutas, controladores, middlewares y servicios siguiendo una arquitectura modular.
 ○ Se espera el uso de Sequelize o Mongoose como ORM, según el tipo de base de datos seleccionada.
 ○ La persistencia debe implementarse sobre una base de datos relacional (PostgreSQL) o documental (MongoDB).

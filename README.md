@@ -14,6 +14,7 @@ Para cumplir con la rúbrica de evaluación, se detallan las siguientes decision
 ---
 
 ## 🏗️ Arquitectura
+
 - **/src/routes**: Definición de endpoints modulares.
 - **/src/controllers**: Lógica de negocio encapsulada.
 - **/src/middlewares**: Filtros de seguridad (`helmet`, `cors`), auditoría y errores.
@@ -23,6 +24,7 @@ Para cumplir con la rúbrica de evaluación, se detallan las siguientes decision
 ---
 
 ## 🛠️ Requisitos del Sistema
+
 - **Node.js**: v18.0.0 o superior.
 - **pnpm**: v9.0.0 o superior.
 
@@ -31,21 +33,28 @@ Para cumplir con la rúbrica de evaluación, se detallan las siguientes decision
 ## 🔧 Instalación y Ejecución
 
 1. **Instalar dependencias**:
+
    ```bash
    pnpm install
    ```
+
 2. **Modo Desarrollo (con auto-reload)**:
+
    ```bash
    pnpm run dev
    ```
+
 3. **Modo Producción**:
+
    ```bash
    pnpm start
    ```
 
 ## 📡 Endpoints
+
 - `GET /`: Landing page con interfaz profesional.
 - `GET /status`: Estado operacional del servidor (JSON).
 
 ## 📝 Auditoría
+
 El sistema genera automáticamente `logs/log.txt` con el formato: `[fecha] [hora] MÉTODO /ruta`, cumpliendo estrictamente con los requerimientos de persistencia del módulo.
