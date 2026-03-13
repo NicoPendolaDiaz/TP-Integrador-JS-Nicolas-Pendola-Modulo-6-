@@ -1,0 +1,6 @@
+# Reflexiones Técnicas - Módulo 6
+
+## Estructura Modular
+Implementé una estructura basada en el patrón MVC para asegurar la escalabilidad...
+## Persistencia
+Se utilizó el módulo fs para cumplir con el requerimiento de archivos planos...
